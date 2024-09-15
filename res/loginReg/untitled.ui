@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>697</width>
+    <height>246</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>10</y>
+      <width>661</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(6, 1, 28, 225);
+border-radius:8px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_exit">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>20</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	background-color: rgb(163, 11, 42);
+	border: 0px solid;
+	border-radius: 5px;
+}
+QPushButton:hover {
+	background-color: rgb(240, 12, 58);
+}</string>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>170</y>
+      <width>621</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QProgressBar{
+	background-color: rgb(200, 200, 200);
+	color: rgb(170,85,127);
+	border-style: solid;
+	border-radius: 10px;
+	text-align: center;
+}
+
+QProgressBar::chunk{
+	border-radius: 10px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(185,105,254,255), stop:1 rgba(106,211,255,255));
+}</string>
+    </property>
+    <property name="value">
+     <number>10</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>70</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton{
+background-color:rgba(2,65,118,255);
+color:rgba(255,255,255,200);
+border-radius:5px
+}
+
+QPushButton#pushButton:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(2,65,118,100);
+background-position:calc(100% - 10px)center;
+}
+
+QPushButton#pushButton{
+background-color:rgba(2,65,118,200);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Express Send</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>110</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_2{
+background-color:rgba(2,65,118,255);
+color:rgba(255,255,255,200);
+border-radius:5px
+}
+
+QPushButton#pushButton_2:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(2,65,118,100);
+background-position:calc(100% - 10px)center;
+}
+
+QPushButton#pushButton{
+background-color:rgba(2,65,118,200);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Express Receive</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>110</y>
+      <width>411</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(146, 157, 255);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>110</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_3{
+background-color:rgba(2,65,118,255);
+color:rgba(255,255,255,200);
+border-radius:5px
+}
+
+QPushButton#pushButton_3:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(2,65,118,100);
+background-position:calc(100% - 10px)center;
+}
+
+QPushButton#pushButton{
+background-color:rgba(2,65,118,200);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>🗃️</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>70</y>
+      <width>411</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(146, 157, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Express File-Transfer</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>200</y>
+      <width>621</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Connected to uniteServer v.0.1</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>70</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_4{
+background-color:rgba(2,65,118,255);
+color:rgba(255,255,255,200);
+border-radius:5px
+}
+
+QPushButton#pushButton_4:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(2,65,118,100);
+background-position:calc(100% - 10px)center;
+}
+
+QPushButton#pushButton{
+background-color:rgba(2,65,118,200);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>🗃️ Select</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_list">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>20</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	background-color: rgb(40, 120, 52);
+	border: 0px solid;
+	border-radius: 5px;
+}
+QPushButton:hover {
+	background-color: rgb(55, 189, 75);
+}</string>
+    </property>
+    <property name="text">
+     <string>📫</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

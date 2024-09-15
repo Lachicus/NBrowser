@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="images">
+    <file>ahegao.jpg</file>
+    <file>HH.PNG</file>
+    <file>game.jpg</file>
+    <file>hworld.PNG</file>
+    <file>hanime.png</file>
+    <file>EHG.png</file>
+    <file>Hgif.png</file>
+    <file>Hitomi.png</file>
+    <file>logo.png</file>
+    <file>MHG.PNG</file>
+    <file>nhentai.jpg</file>
+  </qresource>
+</RCC>
